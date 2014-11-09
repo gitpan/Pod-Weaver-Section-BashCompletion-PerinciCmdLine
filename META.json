@@ -56,7 +56,7 @@
          "web" : "https://github.com/perlancar/perl-Pod-Weaver-Section-BashCompletion-PerinciCmdLine"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.018002"
@@ -250,6 +250,11 @@
                         "class" : "Pod::Weaver::Section::Region",
                         "name" : "@Author::PERLANCAR/postlude",
                         "version" : "4.006"
+                     },
+                     {
+                        "class" : "Pod::Weaver::Section::BashCompletion::PerinciCmdLine",
+                        "name" : "@Author::PERLANCAR/BashCompletion::PerinciCmdLine",
+                        "version" : "0.01"
                      },
                      {
                         "class" : "Pod::Weaver::Section::Homepage::DefaultCPAN",

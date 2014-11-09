@@ -3,10 +3,10 @@ NAME
     COMPLETION section for Perinci::CmdLine-based scripts
 
 VERSION
-    This document describes version 0.01 of
+    This document describes version 0.02 of
     Pod::Weaver::Section::BashCompletion::PerinciCmdLine (from Perl
     distribution Pod-Weaver-Section-BashCompletion-PerinciCmdLine), released
-    on 2014-11-08.
+    on 2014-11-09.
 
 SYNOPSIS
     In your "weaver.ini":
