@@ -1,7 +1,7 @@
 package Pod::Weaver::Section::BashCompletion::PerinciCmdLine;
 
-our $DATE = '2014-11-09'; # DATE
-our $VERSION = '0.02'; # VERSION
+our $DATE = '2014-11-12'; # DATE
+our $VERSION = '0.03'; # VERSION
 
 use 5.010001;
 use Moose;
@@ -53,8 +53,9 @@ recognize tab completion for the command. Or, you can also directly execute the
 line above in your shell to activate immediately.
 
 You can also install L<App::BashCompletionProg> which makes it easy to add
-completion for Perinci::CmdLine-based scripts. Just execute
-C<bash-completion-prog> and the C<complete> command will be added in your
+completion for Perinci::CmdLine-based scripts. After you install the module and
+put C<. ~/.bash-complete-prog> (or C<. /etc/bash-complete-prog>), you can just
+run C<bash-completion-prog> and the C<complete> command will be added to your
 C<~/.bash-completion-prog>. Your next shell session will then recognize tab
 completion for the command.
 
@@ -87,7 +88,7 @@ Pod::Weaver::Section::BashCompletion::PerinciCmdLine - Add a BASH COMPLETION sec
 
 =head1 VERSION
 
-This document describes version 0.02 of Pod::Weaver::Section::BashCompletion::PerinciCmdLine (from Perl distribution Pod-Weaver-Section-BashCompletion-PerinciCmdLine), released on 2014-11-09.
+This document describes version 0.03 of Pod::Weaver::Section::BashCompletion::PerinciCmdLine (from Perl distribution Pod-Weaver-Section-BashCompletion-PerinciCmdLine), released on 2014-11-12.
 
 =head1 SYNOPSIS
 
